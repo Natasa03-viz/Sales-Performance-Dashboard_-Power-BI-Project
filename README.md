@@ -44,6 +44,7 @@ These filters update all visuals on the page, so the dashboard can be explored f
 
 <img width="2092" height="1170" alt="Nexus tech_Power BI_Rocco Neubert_Q2" src="https://github.com/user-attachments/assets/5bdfa6c8-829c-4b29-bb04-f43677b28a9e" />
 
+
 <img width="2092" height="1165" alt="Nexus Tech_Power BI_Celia_Rouche_All" src="https://github.com/user-attachments/assets/828e4329-d162-4a90-9819-04add9fb1cf8" />
 
 
