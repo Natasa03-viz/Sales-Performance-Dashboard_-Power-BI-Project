@@ -14,7 +14,7 @@ The dataset consists of CRM records exported from MavenTech spanning October 201
 
 ## What the dashboard shows
 
-The top section of this interactive dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging . The central visuals show sales performance by agent and product category, with a matrix of sales activity across hardware product groups and a treemap of total sales revenue by sector. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker areas.
+The top section of this interactive dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging. The central visuals show sales performance by agent and product category, with a matrix of sales activity across hardware product groups and a treemap of total sales revenue by sector. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker areas.
 
 ## Main business questions
 
@@ -31,7 +31,7 @@ The top section of this interactive dashboard highlights key KPIs for the select
 
 <img width="1492" height="1062" alt="Nexus Tech_Data Model" src="https://github.com/user-attachments/assets/7b548033-49cf-44e0-b1bf-64318c5bbed8" />
 
-The data required minimal cleaning, and the modeling process was straightforward. The primary objective was establishing a relationship between the Date and Sales tables to link both engagement and closure dates.
+The dataset required only minimal cleaning, and the modeling process was straightforward. The main focus was creating a relationship between the Date and Sales tables to connect both engagement and closure dates. All KPI visuals on the dashboard were created using DAX measures.
 
 # Filters used
 
@@ -43,11 +43,22 @@ The dashboard includes two main filters at the top right: Team Manager and Quart
 
 These filters update all visuals on the page, so the dashboard can be explored from different angles without changing the layout.
 
-<img width="2092" height="1170" alt="Nexus tech_Power BI_Rocco Neubert_Q2" src="https://github.com/user-attachments/assets/5bdfa6c8-829c-4b29-bb04-f43677b28a9e" />
+<img width="2071" height="1167" alt="POWER BI_Malvin Marxxen" src="https://github.com/user-attachments/assets/047c8986-5d12-43de-ab07-3e31879f79db" />
 
 
 <img width="2092" height="1165" alt="Nexus Tech_Power BI_Celia_Rouche_All" src="https://github.com/user-attachments/assets/828e4329-d162-4a90-9819-04add9fb1cf8" />
 
+Additional images:
+
+# Key findings
+
+ - Melvin Marxen’s team generated the highest yearly  total revenue, while Darcel Schecht recorded the most won deals and the highest revenue overall, but also the most lost deals.
+
+- Seven agents are currently lagging behind in performance, including Boris Faz, Rosalina Dieter, and Rosie Papadoulus.
+
+- Willburn Ferren, from Cara Losch’s team, achieved the highest winning rate.
+
+- Vicki Laflamme, on Celia Rousche’s team, closed the most deals but did not generate the highest revenue among all teams.
 
 # Key dashboard elements
 
