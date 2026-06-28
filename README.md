@@ -5,8 +5,7 @@ This project presents a Quarterly Team Performance Management Dashboard for a fi
 The dashboard is designed to show how each sales team is performing compared with the rest, whether any sales agents are lagging behind, how results change quarter over quarter, and which  sales agents have stronger win rates. It combines summary KPIs, agent-level performance tables, sector revenue analysis, and detailed performance charts to support faster performance review and better decision-making.
 
 # The Dataset
-
-The dataset consists of CRM records exported from MavenTech spanning October 2016 to December 2017. It details various sales opportunities, including related information such as product types, account details, and final deal outcomes (won or lost). Source: https://mavenanalytics.io/data-playground/crm-sales-opportunities
+This project uses CRM records exported from MavenTech, covering the period from October 2016 to December 2017. The dataset includes sales opportunities and related attributes such as product type, account details, and final deal outcome. Source: https://mavenanalytics.io/data-playground/crm-sales-opportunities. All files used and created for this analysis are stored in the CRM+Sales+Opportunities folder in this repository.
 
 ## The Dashboard 
 
@@ -46,9 +45,10 @@ These filters update all visuals on the page, so the dashboard can be explored f
 <img width="2071" height="1167" alt="POWER BI_Malvin Marxxen" src="https://github.com/user-attachments/assets/047c8986-5d12-43de-ab07-3e31879f79db" />
 
 
-<img width="2092" height="1165" alt="Nexus Tech_Power BI_Celia_Rouche_All" src="https://github.com/user-attachments/assets/828e4329-d162-4a90-9819-04add9fb1cf8" />
+<img width="2092" height="1165" alt="Nexus Tech_Power BI_Celia_Rouche_All" src="https://github.com/user-attachments/assets/828e4329-d162-4a90-9819-04add9fb1cf8" /> 
 
-Additional images:
+
+Additional images can be found in the Images_Sales Performace folder of this repository.
 
 # Key findings
 
