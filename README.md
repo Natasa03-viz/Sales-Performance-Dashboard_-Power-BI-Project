@@ -14,11 +14,12 @@ The dataset consists of CRM records exported from MavenTech spanning October 201
 
 ## What the dashboard shows
 
-The top section of the dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging . The central visuals show sales performance by agent and product category, with a matrix of sales activity across hardware product groups and a treemap of total sales revenue by sector. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker areas.
+The top section of this interactive dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging . The central visuals show sales performance by agent and product category, with a matrix of sales activity across hardware product groups and a treemap of total sales revenue by sector. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker areas.
 
 ## Main business questions
 
-- This dashboard was built to answer the following questions:
+ This interactive dashboard was built to answer the following questions:
+ 
 - How is each sales team performing compared with the rest?
 - Are any sales agents lagging behind?
 - Does any sales agent have better win rates?
