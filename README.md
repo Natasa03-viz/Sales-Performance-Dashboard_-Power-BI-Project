@@ -45,10 +45,11 @@ These filters update all visuals on the page, so the dashboard can be explored f
 <img width="2071" height="1167" alt="POWER BI_Malvin Marxxen" src="https://github.com/user-attachments/assets/047c8986-5d12-43de-ab07-3e31879f79db" />
 
 
+Additional images can be found in the Images_Sales Performace folder of this repository.
+
+
 <img width="2092" height="1165" alt="Nexus Tech_Power BI_Celia_Rouche_All" src="https://github.com/user-attachments/assets/828e4329-d162-4a90-9819-04add9fb1cf8" /> 
 
-
-Additional images can be found in the Images_Sales Performace folder of this repository.
 
 # Key findings
 
