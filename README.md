@@ -2,7 +2,7 @@
 
 This project presents a Quarterly Team Performance Management Dashboard for a fictitious B2B company that sells computer hardware. The analysis is based on sales pipeline data covering accounts, products, sales teams, and sales opportunities, and it was built to help management monitor team performance across quarters and managers.
 
-The dashboard is designed to show how each sales team is performing compared with the rest, whether any sales agents are lagging behind, how results change quarter over quarter, and which  sales agents have stronger win rates. It combines summary KPIs, agent-level performance tables, and detailed performance charts to support faster performance review and better decision-making.
+An interactive dashboard built in Power BI, featuring dynamic visuals driven by the custom DAX measures. The dashboard is designed to show how each sales team is performing compared with the rest, whether any sales agents are lagging behind, how results change quarter over quarter, and which  sales agents have stronger win rates. It combines summary KPIs, agent-level performance tables, and detailed performance charts to support faster performance review and better decision-making.
 
 # The Dataset
 This project uses CRM records exported from MavenTech, covering the period from October 2016 to December 2017. The dataset includes sales opportunities and related attributes such as product type, account details, and final deal outcome. Source: https://mavenanalytics.io/data-playground/crm-sales-opportunities. All files used and created for this analysis are stored in the CRM+Sales+Opportunities folder in this repository.
@@ -43,7 +43,7 @@ These filters update all visuals on the page, so the dashboard can be explored f
 <img width="1617" height="887" alt="Nexus tech_Power BI_Malvin Marxen" src="https://github.com/user-attachments/assets/4b5171e3-2637-4375-87f9-20f74ca5fb60" />
 
 
-Additional images can be found in the Images_Sales Performance folder of this repository.
+Additional images of the dashboard and model created can be found in the Images_Sales Performance folder of this repository.
 
 <img width="1622" height="891" alt="Nexus Tech_Power BI_Page2" src="https://github.com/user-attachments/assets/a8593603-79c7-45f8-8ab0-d36f2a0f8d31" />
 
