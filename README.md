@@ -7,15 +7,17 @@ The dashboard is designed to show how each sales team is performing compared wit
 # The Dataset
 This project uses CRM records exported from MavenTech, covering the period from October 2016 to December 2017. The dataset includes sales opportunities and related attributes such as product type, account details, and final deal outcome. Source: https://mavenanalytics.io/data-playground/crm-sales-opportunities. All files used and created for this analysis are stored in the CRM+Sales+Opportunities folder in this repository.
 
-## The Dashboard 
+# The Dashboard 
 
-<img width="1718" height="966" alt="NT_POWER BI_All" src="https://github.com/user-attachments/assets/7d2b01df-2101-4d53-8abc-dbaf0b296082" />
+<img width="1626" height="893" alt="Nexus Tech_Power BI__All" src="https://github.com/user-attachments/assets/3bc50e17-98b0-4a51-8182-43b14f591717" />
 
-## What the dashboard shows
+# What the dashboard shows
 
-The top section of this interactive dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. The central visuals show product sales performance by agent, with a matrix of sales activity across hardware product groups. The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker areas.
+The top section of this interactive dashboard highlights key KPIs for the selected manager and quarter, including previous quarter revenue, open deals, and whether the agent is on track or lagging, product rank by revenue. Upper section also includes a manager trend visual that shows total sales revenue by manager, making it easier to compare performance across leaders and spot differences in revenue contribution. 
 
-## Main business questions
+The lower section breaks down individual agent performance through metrics such as won deals, win rate, average sales cycle, total revenue, and lost deals, which makes it easier to identify top performers and weaker. The second page shows product sales performance by agent, including a matrix of sales activity across hardware product groups, the average sales cycle in days, and total revenue earned. It also includes a quarterly revenue chart.
+
+# Main business questions
 
  This interactive dashboard was built to answer the following questions:
  
@@ -26,11 +28,6 @@ The top section of this interactive dashboard highlights key KPIs for the select
 - Which manager leads the strongest team overall?
 - Which products are sold the most?
 
-# Data Model
-
-<img width="1492" height="1062" alt="Nexus Tech_Data Model" src="https://github.com/user-attachments/assets/7b548033-49cf-44e0-b1bf-64318c5bbed8" />
-
-The dataset required only minimal cleaning, and the modeling process was straightforward. The main focus was creating a relationship between the Date and Sales tables to connect both engagement and closure dates. All KPI visuals on the dashboard were created using DAX measures.
 
 # Filters used
 
@@ -39,41 +36,44 @@ The dashboard includes two main filters at the top right: Team Manager and Quart
  - The Team Manager filter lets the user switch between 6 team managers such as Rocco Neubert and Celia Rouche, allowing comoplete review of team performance.
 
 - The Quarter filter lets the user view one quarter at a time or all quarters together, which supports comparison across reporting periods and quarter-over-quarter trends.
+- The Product filter allows users to view product performance by selecting the desired product.
 
 These filters update all visuals on the page, so the dashboard can be explored from different angles without changing the layout.
 
-<img width="1735" height="972" alt="NT_POWER BI_Melvin Marxen" src="https://github.com/user-attachments/assets/b7f2d8d6-1ec6-4a1f-bc08-8778b3ef3be2" />
+<img width="1617" height="887" alt="Nexus tech_Power BI_Malvin Marxen" src="https://github.com/user-attachments/assets/4b5171e3-2637-4375-87f9-20f74ca5fb60" />
 
 
 Additional images can be found in the Images_Sales Performance folder of this repository.
 
-<img width="1732" height="977" alt="NT_POWER BI_CELIA ROUCHE" src="https://github.com/user-attachments/assets/2d2d99eb-899d-4068-943b-2d28db885278" />
-
-
+<img width="1622" height="891" alt="Nexus Tech_Power BI_Page2" src="https://github.com/user-attachments/assets/a8593603-79c7-45f8-8ab0-d36f2a0f8d31" />
 
 # Key findings
 
  - Melvin Marxen’s team generated the highest yearly  total revenue, while Darcel Schecht recorded the most won deals and the highest revenue overall, but also the most lost deals.
-
-- Seven agents are currently lagging behind in performance, including Boris Faz, Rosalina Dieter, and Rosie Papadoulus.
-
-- Willburn Ferren, from Cara Losch’s team, achieved the highest winning rate.
-
+ - Seven agents are currently lagging behind in performance, including Boris Faz, Rosalina Dieter, and Rosie Papadoulus.
+-  Willburn Ferren, from Cara Losch’s team, achieved the highest winning rate.
 - Vicki Laflamme, on Celia Rousche’s team, closed the most deals but did not generate the highest revenue among all teams.
+- The top-selling products are GTX Basix, which generated 499K in revenue, and MG Advanced, which achieved total revenue of 44K.
+- The average time required to sell the products was 51 days.
 
-# Key dashboard elements
+# Recommendations
 
-- KPI cards summarize the current quarter’s main performance indicators, such as revenue, open deals, and lagging/on-track status .
+- Leverage top performers to standardize best practices
+Use Melvin Marxen’s and Darcel Schecht’s approaches to deals and product focus as a benchmark, documenting what they do differently and turning it into a playbook for the rest of the sales organization.
 
-- Agent performance matrix shows sales activity across product categories for each agent.
+- Address high loss rates with targeted coaching
+Since Darcel Schecht combines high revenue and many lost deals, review their pipeline qualification, pricing strategies, and negotiation tactics to reduce losses while preserving their strong win volume.
 
-- Sector treemap highlights which product sectors generate the most revenue.
+- Prioritize performance improvement plans for lagging agents
+Develop tailored coaching and KPI targets for the seven underperforming agents (including Boris Faz, Rosalina Dieter, and Rosie Papadoulus), focusing on win rate, deal value, and activity quality rather than just volume.
 
-- Manager trend visual compares total sales revenue across managers.
+- Optimize deal strategy around high win-rate and high-volume agents
+Refine lead assignment by using Willburn Ferren’s high win rate and Vicki Laflamme’s high deal volume as guides, directing high-potential opportunities to agents who either convert most consistently or can manage larger, more complex deals that generate higher revenue.
 
-- Agent detail charts show won deals, win rate, average sales cycle, total revenue, and lost deals for deeper performance analysis .
+- Refine product and sales-cycle strategy around GTX Basix and MG Advanced
+Increase sales of GTX Basix and MG Advanced through targeted campaigns, pricing and bundling strategies,
 
-# Business value
+- Investigate why some products take longer to sell then other
+Investigate why the average sales cycle is 51 days and identifying specific steps to shorten it for high-value products (e.g., clearer value framing)
 
-This dashboard helps management review team performance, compare managers, and identify where sales activity is strong or weak. It also supports coaching by showing which agents are lagging, which ones close deals efficiently, and which product types are driving revenue. Overall, it turns raw B2B pipeline data into a practical performance management tool for quarterly review and action planning.
 
