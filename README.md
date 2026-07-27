@@ -31,10 +31,9 @@ The lower section breaks down individual agent performance through metrics such 
 
 # Filters used
 
-The dashboard includes two main filters at the top right: Team Manager and Quarter.
+The dashboard includes two main filters at the top right: Team Manager, Quarter and Product.
 
- - The Team Manager filter lets the user switch between 6 team managers such as Rocco Neubert and Celia Rouche, allowing comoplete review of team performance.
-
+ - The Team Manager filter lets the user switch between 6 team managers such as Rocco Neubert and Celia Rouche, allowing complete review of team performance.
 - The Quarter filter lets the user view one quarter at a time or all quarters together, which supports comparison across reporting periods and quarter-over-quarter trends.
 - The Product filter allows users to view product performance by selecting the desired product.
 
